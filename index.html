@@ -15,7 +15,7 @@
 </ol>
 <h1 align ="center">Welcome to Quentin's Website.</h1>
 <h2 align ="center">The site doesn't do much now but it will, some day.</h2>
-<a <h2 align="center" id="cookie blog" href="https://therealqpow.wordpress.com" target="_blank">Read my cookie blog, click here!</h2></a> 
+<span><a <h2 align="center" id="cookie blog" href="https://therealqpow.wordpress.com" target="_blank">Read my cookie blog, click here!</h2></a></span>
 <iframe align ="center" src="https://giphy.com/embed/HGe4zsOVo7Jvy" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sesame-street-cookies-cookie-monster-HGe4zsOVo7Jvy">via GIPHY</a></p
 <div>
   <h2 id="cat gif">To make up for the fact that this site does nothing,here is an endless gif of a cat.</h2>
@@ -87,24 +87,41 @@
 </form>
 
 <div id="form example">
+<!--Username and Password Form Example-->
+<form<!-- action="Enter here where to send data" method="POST"-->>
+  <h1>Login Page</h1>
+  <p>Login to your account by entering your username and password below</p>
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username">
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password">
+</form>
+
 <!--Number, Range, and Checkbox Input Form Example-->
 <form>
   <h1>Number of Cookies Desired and Rating</h1>
   <p>Select the type, number of cookies you desire, and rating for the cookies</p>
-  <label for="chocolate">Chocolate Chip</label>
-  <input type="checkbox" name="cookietype" id="chocolate" value="chocolate">
-  <label for="peanutbutter">Peanut Butter</label>
-  <input type="checkbox" name="cookietype" id="peanutbutter" value="peanutbutter">
-  <label for="sugar">Sugar</label>
-  <input type="checkbox" name="cookietype" id="sugar" value="sugar">
-  <label for="oatraisin">Oatmeal Raisin</label>
-  <input type="checkbox" name="cookietype" id="oatraisin" value="oatraisin">
+  <section class="type">
+    <label for="chocolate">Chocolate Chip</label>
+    <input type="checkbox" name="cookietype" id="chocolate" value="chocolate">
+    <label for="peanutbutter">Peanut Butter</label>
+    <input type="checkbox" name="cookietype" id="peanutbutter" value="peanutbutter">
+    <label for="sugar">Sugar</label>
+    <input type="checkbox" name="cookietype" id="sugar" value="sugar">
+    <label for="oatraisin">Oatmeal Raisin</label>
+    <input type="checkbox" name="cookietype" id="oatraisin" value="oatraisin">
+  </section>
+  
+  <section class="amount">
+    <label for="cookieamount">Cookie Amount</label>
+    <input type="number" name="cookieamount" id="cookieamount" step="1">
+  </section>
 
+  <section class="rating">
 
-  <label for="cookieamount">Cookie Amount</label>
-  <input type="number" name="cookieamount" id="cookieamount" step="1">
-  <label for="cookierating">Cookie Rating</label>
-  <input type="range" name="cookierating" id="cookierating" min="0" max="10" step = 1>
+    <label for="cookierating">Cookie Rating</label>
+    <input type="range" name="cookierating" id="cookierating" min="0" max="10" step = 1>
+  </section>
 </form>
 </div>
 
