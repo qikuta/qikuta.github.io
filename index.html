@@ -75,5 +75,35 @@
 
 </div>
 
+<!--Username and Password Form Example-->
+<form<!-- action="Enter here where to send data" method="POST"-->>
+  <h1>Login Page</h1>
+  <p>Login to your account by entering your username and password below</p>
+  <label for="username">Username</label>
+  <input type="text" name="username" id="username">
+  <label for="password">Password</label>
+  <input type="password" name="password" id="password">
+</form>
+
+<!--Number, Range, and Checkbox Input Form Example-->
+<form>
+  <h1>Number of Cookies Desired and Rating</h1>
+  <p>Select the type, number of cookies you desire, and rating for the cookies</p>
+  <label for="chocolate">Chocolate Chip</label>
+  <input type="checkbox" name="cookietype" id="chocolate" value="chocolate">
+  <label for="peanutbutter">Peanut Butter</label>
+  <input type="checkbox" name="cookietype" id="peanutbutter" value="peanutbutter">
+  <label for="sugar">Sugar</label>
+  <input type="checkbox" name="cookietype" id="sugar" value="sugar">
+  <label for="oatraisin">Oatmeal Raisin</label>
+  <input type="checkbox" name="cookietype" id="oatraisin" value="oatraisin">
+
+
+  <label for="cookieamount">Cookie Amount</label>
+  <input type="number" name="cookieamount" id="cookieamount" step="1">
+  <label for="cookierating">Cookie Rating</label>
+  <input type="range" name="cookierating" id="cookierating" min="0" max="10" step = 1>
+</form>
+
 </body>
 </html>
