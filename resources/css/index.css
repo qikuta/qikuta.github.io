@@ -1,0 +1,62 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white
+
+}
+
+.banner{
+    background-color: blanchedalmond;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#small-snuff{
+    height:100px;
+    width: 100px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+.snuff-section{
+    padding: 20px;
+}
+
+#snuff{
+    color: blanchedalmond;
+    font-size: 100px;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.avatar{
+    background-image: url(../images/IMG_4032.JPG);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a.blue{
+    color: blanchedalmond;
+}
+
+.greets ul{
+    list-style-type: none;
+}
